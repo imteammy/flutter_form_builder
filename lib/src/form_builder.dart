@@ -128,6 +128,7 @@ class FormBuilder extends StatefulWidget {
 typedef FormBuilderFields
     = Map<String, FormBuilderFieldState<FormBuilderField<dynamic>, dynamic>>;
 
+// test patch package
 class FormBuilderState extends State<FormBuilder> {
   final GlobalKey<FormState> _formKey = GlobalKey<FormState>();
   final FormBuilderFields _fields = {};
